@@ -1,0 +1,63 @@
+.contact {
+  padding: 0 5rem;
+  .contact__container {
+    height: 100vh;
+    background: #f9bdae;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 5rem;
+    // overflow: hidden;
+    font-family: "Rubik";
+    .contact__img {
+      padding-left: 5rem;
+      img {
+        width: 980px;
+        height: 100%;
+      }
+    }
+    .contact__text {
+      color: #041367;
+      margin-top: 4rem;
+      margin-left: -6rem;
+      img {
+        width: 50px;
+      }
+      p {
+        margin-top: 1rem;
+        font-weight: light;
+        width: 500px;
+        font-size: 2.8rem;
+        line-height: 4rem;
+      }
+      button {
+        background: #efed70;
+        padding: 1.4rem 1.78rem;
+        font-size: 1.1rem;
+        font-family: "Rubik";
+        font-weight: bold;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        color: rgb(4, 19, 103);
+        border-radius: 3rem;
+        margin: 4rem 0;
+        svg {
+          margin-right: 0.8rem;
+        }
+      }
+      position: relative;
+    }
+    .content__absolute {
+      position: absolute;
+      //   width: 100px !important;
+      right: 5rem;
+      margin-top: 36vw;
+      img {
+        width: 600px;
+        // object-fit: cover;
+      }
+    }
+  }
+}
