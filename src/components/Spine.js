@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import spine from "../assets/images/spine.svg";
 import back from "../assets/images/back.jpeg";
 import "../assets/styles/spine.scss";
@@ -7,10 +8,15 @@ export default function Spine() {
     <div className="spine">
       <div className="spine__container">
         <div className="spine__container--left">
-          <div className="main">
+          <motion.div
+            className="main"
+            initial={{ opacity: 0.3, y: 250 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
             Whether you’re struggling with neck pain or your back is making life
             difficult, we’re here to help.
-          </div>
+          </motion.div>
           <div className="list">
             <div className="list__left">
               <img src={spine} alt="" />

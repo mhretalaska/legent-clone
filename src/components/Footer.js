@@ -43,6 +43,11 @@ export default function () {
           <p>
             Built with <span>&#10084;</span> by <a href="#">Mhret</a>
           </p>
+          <p>
+            &#9888; This website was inspired by{" "}
+            <a href="legenthealth.com">Legent</a>. It is neither my website nor
+            my design. Just a clone.
+          </p>
         </div>
       </div>
     </div>
