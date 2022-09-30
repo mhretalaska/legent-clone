@@ -6,6 +6,7 @@ import line from "../assets/images/line.svg";
 import Spine from "../components/Spine";
 import Contact from "../components/Contact";
 import Detail from "../components/Detail";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
@@ -70,6 +71,7 @@ export default function Home() {
         <Contact />
       </div>
       <Detail />
+      <Footer />
     </div>
   );
 }

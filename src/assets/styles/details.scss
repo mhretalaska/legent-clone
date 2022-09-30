@@ -27,3 +27,59 @@
     font-size: 1.7rem;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 10rem;
+  .left {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+  }
+  .middle {
+    background: #efed70;
+    height: 70%;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    div p {
+      text-align: center;
+      // width: 80%;
+      padding: 3rem 4rem;
+
+      color: #041367;
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+    button {
+      background: #041367;
+      padding: 1.8rem 2.8rem;
+      font-size: 1.2rem;
+      font-family: "Rubik";
+      font-weight: bold;
+      z-index: 4;
+      border: none;
+      color: white;
+      border-radius: 3rem;
+    }
+  }
+  .right {
+    width: 100%;
+    margin-top: 15vh;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

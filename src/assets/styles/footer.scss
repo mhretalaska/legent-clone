@@ -1,0 +1,56 @@
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Rubik";
+  height: 50vh;
+  .footer__logo {
+    display: flex;
+    // align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    svg {
+      margin: 2rem 0;
+      margin-left: 5rem;
+    }
+    p {
+      color: #04136796;
+      width: 100%;
+      font-size: 1.3rem;
+      margin-left: 5rem;
+    }
+  }
+  .footer__img {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    img {
+      opacity: 0.08;
+      width: 100%;
+      z-index: -03;
+    }
+  }
+  .footer__links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 25%;
+    margin: 3rem 1rem;
+    margin-bottom: 10%;
+    p {
+      color: #041367;
+      font-weight: 400;
+      width: 100%;
+      font-size: 1.3rem;
+      span {
+        color: red;
+      }
+      a {
+        color: #041367;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
